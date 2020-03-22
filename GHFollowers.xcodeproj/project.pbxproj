@@ -26,6 +26,7 @@
 		D189D3862426EFC6004DF349 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189D3852426EFC6004DF349 /* GFError.swift */; };
 		D189D3892426F6F7004DF349 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189D3882426F6F7004DF349 /* FollowerCell.swift */; };
 		D189D38B2426F778004DF349 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189D38A2426F778004DF349 /* GFAvatarImageView.swift */; };
+		D189D38D2427095E004DF349 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189D38C2427095E004DF349 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D189D3852426EFC6004DF349 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		D189D3882426F6F7004DF349 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		D189D38A2426F778004DF349 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		D189D38C2427095E004DF349 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				D189D3852426EFC6004DF349 /* GFError.swift */,
+				D189D38C2427095E004DF349 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				D12CC6F02426B88800C9D544 /* GFTextField.swift in Sources */,
 				D12CC6EC2426B07B00C9D544 /* FavoritesListVC.swift in Sources */,
 				D12CC6EE2426B53D00C9D544 /* GFButton.swift in Sources */,
+				D189D38D2427095E004DF349 /* UIHelper.swift in Sources */,
 				D189D38B2426F778004DF349 /* GFAvatarImageView.swift in Sources */,
 				D12CC6DC2426AD7800C9D544 /* SearchVC.swift in Sources */,
 				D12CC6FA2426CB9600C9D544 /* GFAlertVC.swift in Sources */,
