@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import SafariServices
 
 class GFFollowerItemVC: GFItemInfoVC {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,9 @@ class GFFollowerItemVC: GFItemInfoVC {
         itemInfoViewTwo.set(itemInfoType: .following, withCount: user.following)
         actionButton.set(backgroundColor: .systemGreen, title: "Git Followers")
 
+    }
+
+    override func actionButtonTapped() {
+        delegate.didTapFollower(for: user)
     }
 }
