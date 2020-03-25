@@ -22,6 +22,7 @@
 		D12CC6FC2426D1B300C9D544 /* UIViewController+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12CC6FB2426D1B300C9D544 /* UIViewController+EXT.swift */; };
 		D12CC7032426E08000C9D544 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12CC7022426E08000C9D544 /* Follower.swift */; };
 		D12CC7052426E13100C9D544 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12CC7042426E13100C9D544 /* User.swift */; };
+		D13C3204242BD9630076A53C /* GFTabBatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13C3203242BD9630076A53C /* GFTabBatController.swift */; };
 		D189D3832426E514004DF349 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189D3822426E514004DF349 /* NetworkManager.swift */; };
 		D189D3862426EFC6004DF349 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189D3852426EFC6004DF349 /* GFError.swift */; };
 		D189D3892426F6F7004DF349 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D189D3882426F6F7004DF349 /* FollowerCell.swift */; };
@@ -60,6 +61,7 @@
 		D12CC6FB2426D1B300C9D544 /* UIViewController+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+EXT.swift"; sourceTree = "<group>"; };
 		D12CC7022426E08000C9D544 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		D12CC7042426E13100C9D544 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D13C3203242BD9630076A53C /* GFTabBatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBatController.swift; sourceTree = "<group>"; };
 		D189D3822426E514004DF349 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D189D3852426EFC6004DF349 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		D189D3882426F6F7004DF349 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		D12CC6FE2426D4D800C9D544 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				D13C3202242BD9420076A53C /* TabBarControllers */,
 				D1E4DC2124271DE700228AC0 /* Labels */,
 				D1E4DC2024271DAD00228AC0 /* ViewControllers */,
 				D1E4DC1F24271D9300228AC0 /* ImageViews */,
@@ -175,6 +178,14 @@
 				D12CC7042426E13100C9D544 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D13C3202242BD9420076A53C /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D13C3203242BD9630076A53C /* GFTabBatController.swift */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 		D189D3812426E4F3004DF349 /* Managers */ = {
@@ -356,6 +367,7 @@
 				D12CC6F82426CAC100C9D544 /* GFBodyLabel.swift in Sources */,
 				D189D3862426EFC6004DF349 /* GFError.swift in Sources */,
 				D1E4DC2724285D7500228AC0 /* GFUserInfoHeaderVC.swift in Sources */,
+				D13C3204242BD9630076A53C /* GFTabBatController.swift in Sources */,
 				D12CC6F22426C2B900C9D544 /* FollowerListVC.swift in Sources */,
 				D12CC7032426E08000C9D544 /* Follower.swift in Sources */,
 				D12CC6FC2426D1B300C9D544 /* UIViewController+EXT.swift in Sources */,
